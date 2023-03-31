@@ -133,10 +133,17 @@ REST_FRAMEWORK = {
     ],
 }
 
+# ARANGO_DB = {
+#     'HOST': 'http://52.203.100.99:8529',
+#     'PORT': 8529,
+#     'USERNAME': 'root',
+#     'PASSWORD': 'M2MwMTBjMzcyMWRk',
+#     'DATABASE': 'shoptaki',
+# }
+
 ARANGO_DB = {
-    'HOST': 'http://52.203.100.99',
-    'PORT': 8529,
+    'HOST': 'http://localhost:8529',
     'USERNAME': 'root',
-    'PASSWORD': 'M2MwMTBjMzcyMWRk',
-    'DATABASE': 'shoptaki',
+    'PASSWORD': '123123',
+    'DATABASE': 'shoptaki'
 }
