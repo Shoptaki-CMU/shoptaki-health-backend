@@ -1,8 +1,8 @@
 from arango_orm import Collection
-from arango_orm.fields import String
+from arango_orm.fields import String, List
 
 class Drug(Collection):
-    __collection__ = 'drugs'
+    __collection__ = 'drug-label'
 
-    name = String(required=True, allow_none=False)
-    description = String(required=True, allow_none=False)
+    description = List(String(required=True, allow_none=False))
+
